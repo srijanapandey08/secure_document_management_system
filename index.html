@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<body>
+    <h1>Contact us</h1>
+    <form id="contactForm">
+        <label>
+            Name:
+            <input type="text" id="name" required>
+        </label><br><br>
+        <label>
+            Email:
+            <input type="email" id="email" required>
+        </label><br><br>
+        <label>
+            Message:
+            <textarea id="message" required></textarea>
+        </label><br><br>
+        <button type="submit">Send</button>
+    </form>
+
+
+</body>
+
+</html>
